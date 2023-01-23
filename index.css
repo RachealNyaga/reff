@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+header{
+    color: rgb(19, 18, 18);
+    padding: 20px;
+}
+nav
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+header nav ul{
+    margin-bottom: 80%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,4), rgba(0,0,0,0,4)) url();
+    background-position: center;
+    background-size: cover;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    margin-right: 40px;
+}
+header nav ul li a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+p{
+    color: gray;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Tour{
+    color: #04ddb2;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.video{
+    width: 50%;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #04ddb2;
+    padding: 20px 30px;
+    border: 0px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.btn-center {
+    display: block;
+    margin: 10px auto;
+}
+.txt-center{
+    text-align: center;
+}
+
+.Train {
+    width: 180px;
+    margin: 0 auto;
+}
+.center{
+    display: block;
+    margin: 20px auto;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 2opx;
+}
+footer ul{
+    list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width:778px) {
+    .video{
+     width: 80%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
